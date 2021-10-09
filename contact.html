@@ -87,7 +87,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <form action="#" method="post">
+                    <form action="https://formsubmit.co/victorrmalhotra@gmail.com" method="POST" enctype="multipart/form-data">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Full Name *" required/>
@@ -113,7 +113,7 @@
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-12">
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject *" required />
+                                <input type="text" class="form-control" id="subject" name="_subject" placeholder="Subject *" required />
                             </div>
                         </div>
                         <div class="form-row">
@@ -122,11 +122,20 @@
                             </div>
                         </div>
                         <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <input type="file" name="attachment" accept="image/png, image/jpeg">
+                            </div>
+                        </div>
+                        <div class="form-row">
                             <div class="form-group col-md-12 text-center">
                                 <a href="mailto:victorrmalhotra@gmail.com">
                                     <button type="submit" class="btn btn-primary"><i class="fa fa-send"></i> Send Message</button>
                                 </a>
                             </div>
+                            <input type="hidden" name="_autoresponse" value="You have made contact with victor please wait for at least a day for a message">
+                            <input type="hidden" name="_cc" value="vmalho393@west-mec.org">
+                            <input type="hidden" name="_next" value="contact.html">
+                            <input type="text" name="_honey" style="display:none">
                         </div>
 
 
