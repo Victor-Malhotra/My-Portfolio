@@ -1,0 +1,17 @@
+body{
+  background-color: #171A1E!important;
+  color: white;
+}
+img.art{
+  width: 100%;
+  height: 300px;
+  object-fit:cover;
+  transition: transform 1s;
+}
+.thumb{
+  overflow: hidden;
+}
+
+img.art:hover{
+  transform: scale(1.2);
+}
