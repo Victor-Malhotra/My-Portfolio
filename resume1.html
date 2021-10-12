@@ -22,12 +22,12 @@
     <div>
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                <a href="#" class="nav__logo" style="text-decoration: none"> Smith</a>
+                <a href="#" class="nav__logo" style="text-decoration: none"> Victor</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link" style="text-decoration: none">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="bx bx-home nav__icon"></i>Home
                             </a>
                         </li>
@@ -76,45 +76,167 @@
     </div>
 
     <main class="l-main bd-container">
-        <!-- All elements within this div, is generated in PDF -->
-        <div class="resume" id="area-cv">
+        <!-- All elements within this div, is generated in PDF id="area-cv" -->
+        <div class="resume">
             <div class="resume__left">
                 <!--========== HOME ==========-->
                 <section class="home" id="home">
-                    <!-- Theme change button -->
+                    <div class="hone__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="resume/img/Student ID Victor Malhotra.jpg" alt="" class="home__img">
 
-                    <!-- Button to generate and download the pdf. Available for desktop. -->
-                </section>
+                            <h1 class="home__title">VICTOR <b>MALHOTRA</b></h1>
+                            <h3 class="home__profession">Web Developer</h3>
 
-                <!--========== SOCIAL ==========-->
-                <section class="social section"></section>
+                            <!-- Button to download your CV in pdf folder. Available for mobile. -->
+                            <div>
+                                <a download="" href="resume/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                            </div>
+                        </div>
 
-                <!--========== PROFILE ==========-->
-                <section class="profile section" id="profile"></section>
-
-                <!--========== EDUCATION ==========-->
-                <section class="education section" id="education"></section>
-
-                <!--========== SKILLS  ==========-->
-                <section class="skills section" id="skills"></section>
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                    <i class="bx bx-map home__icon"></i> 19870 N 68th Dr, Glendale, AZ 85308
+                                </span>
+                            <span class="home__information">
+                                    <i class="bx bx-mail-send home__icon" ></i> victorrmalhotra@gmail.com
+                                </span>
+                            <span class="home__information">
+                                    <i class="bx bx-phone-call home__icon" ></i> +1(602) 784-0144
+                                </span>
+                        </div>
+                    </div>
             </div>
+            </section>
 
-            <div class="resume__right">
-                <!--========== EXPERIENCE ==========-->
-                <section class="experience section" id="experience"></section>
+            <!-- Theme change button -->
 
-                <!--========== CERTIFICATES ==========-->
-                <section class="certificate section" id="certificates"></section>
+            <!-- Button to generate and download the pdf. Available for desktop. -->
 
-                <!--========== REFERENCES ==========-->
-                <section class="references section" id="references"></section>
+            <!--========== SOCIAL ==========-->
+            <section class="social section">
+                <h2 class="section-title">SOCIAL</h2>
 
-                <!--========== LANGUAGES ==========-->
-                <section class="languages section"></section>
+                <div class="social__container bd-grid">
+                    <a href="https://stackoverflow.com/users/8011065/victor-malhotra" target="_blank" class="social__link">
+                        <i class='bx bxl-stack-overflow bx-tada social__icon'></i>@Victor Malhotra
+                    </a>
+                    <a href="" target="_blank" class="social__link">
+                        <i class='bx bxl-whatsapp bx-tada bx-flip-vertical social__icon'></i> (602) 784-0144
+                    </a>
+                    <a href="https://github.com/VictorMal001" target="_blank" class="social__link">
+                        <i class='bx bxl-github bx-tada social__icon'></i> @VictoMal001
+                    </a>
+                </div>
+            </section>
 
-                <!--========== INTERESTS ==========-->
-                <section class="interests section"></section>
-            </div>
+            <!--========== PROFILE ==========-->
+            <section class="profile section" id="profile">
+                <h2 class="section-title">Profile</h2>
+
+                <p class="profile__description">
+                    I am a person, responsible with their work during working hours. I will have finished my Highschool and WestMEC by next year. I have several years of training and experience in the coding and IT field.
+                </p>
+            </section>
+
+            <!--========== EDUCATION ==========-->
+            <section class="education section" id="education">
+                <h2 class="section-title">Education</h2>
+
+                <div class="education__container bd-grid">
+                    <div class="education__content">
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div class="education__data bd-grid">
+                            <h3 class="education__title">Deer Valley Highschool</h3>
+                            <span class="education__studies">Highschool od studies</span>
+                            <span class="education__year">2018 - 2022</span>
+                        </div>
+                    </div>
+
+                    <div class="education__content">
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div class="education__data bd-grid">
+                            <h3 class="education__title">Web Developer</h3>
+                            <span class="education__studies">Self Studies</span>
+                            <span class="education__year">2012 - 2021</span>
+                        </div>
+                    </div>
+
+                    <div class="education__content">
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <!-- <span class="education__line"></span> -->
+                        </div>
+
+                        <div class="education__data bd-grid">
+                            <h3 class="education__title">Database Management</h3>
+                            <span class="education__studies">Self Studies</span>
+                            <span class="education__year">2019-2020</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== SKILLS  ==========-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__content bd-grid">
+                    <ul class="skills__data">
+                        <li class="skills__name">
+                            <span class="skills__circle"></span>
+                            <i class='bx bxl-html5'></i>HTML
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span>CSS
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span>PHP
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span>JavaScript
+                        </li>
+                    </ul>
+                    <ul class="skills__data">
+                        <li class="skills__name">
+                            <span class="skills__circle"></span>Angular
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span>Simple
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span>Node
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <div class="resume__right">
+            <!--========== EXPERIENCE ==========-->
+            <section class="experience section" id="experience"></section>
+
+            <!--========== CERTIFICATES ==========-->
+            <section class="certificate section" id="certificates"></section>
+
+            <!--========== REFERENCES ==========-->
+            <section class="references section" id="references"></section>
+
+            <!--========== LANGUAGES ==========-->
+            <section class="languages section"></section>
+
+            <!--========== INTERESTS ==========-->
+            <section class="interests section"></section>
+        </div>
         </div>
     </main>
     </div>
