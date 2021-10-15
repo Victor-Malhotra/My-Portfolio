@@ -1,4 +1,4 @@
-const html2pdfBundleMin = require("./html2pdf.bundle.min.js");
+const html2pdfBundleMin = require(["resume/js/html2pdf.bundle.min"]);
 
 /*==================== SHOW MENU ====================*/
 const showMenu = (toggleId, navId) => {
@@ -102,7 +102,7 @@ let areaCv = document.getElementById('area-cv');
 let resumeButton = document.getElementById('resume-button');
 
 
-// Html2pdf options
+// // Html2pdf options
 let opt = {
     margin: 0,
     filename: 'VictorMalhotraResume.pdf',
@@ -125,4 +125,5 @@ resumeButton.addEventListener('click', () => {
     generateResume()
 
     // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
+    setTimeout(removeScale, 5000)
 })
