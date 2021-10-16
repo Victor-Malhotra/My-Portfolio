@@ -478,8 +478,6 @@ img {
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-1);
 }
-.certificate__description {}
-.certificate__content {}
 
 /*========== REFERENCES ==========*/
 .references__content {
