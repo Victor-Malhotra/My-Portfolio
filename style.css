@@ -2,6 +2,7 @@
 * {
     transition: all 1s;
     color: white;
+    font-family: "Black Ops One", cursive;
 }
 
 .body {
@@ -72,7 +73,7 @@ header img {
 header h1 {
     color: white;
     font-size: 2.5em;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 header a {
