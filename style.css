@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 * {
     transition: all 1s;
     color: white;
@@ -8,7 +8,7 @@
     background: rgb(243, 250, 255);
     margin: 0 auto;
     max-width: 50em;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: 'Black Ops One', cursive;
     line-height: 1.5;
     padding: 4em 1em;
     color: #566b78;

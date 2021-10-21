@@ -100,7 +100,9 @@ function removeScale() {
 // PDF generated area
 let areaCv = document.getElementById('area-cv');
 
-let resumeButton = document.getElementById('resume-button');
+// let resumeButton = document.getElementsByClassName('resume-button');
+let resumeSmallButton = document.getElementById('resume-button')
+
 
 
 // // Html2pdf options
@@ -118,13 +120,25 @@ function generateResume() {
 }
 
 // When the button is clicked, it executes the three functions
-resumeButton.addEventListener('click', () => {
+
+// resumeButton.addEventListener('click', () => {
+//     // 1. The class .scale-cv is added to the body, where it reduces the size of the elements
+//     scaleCv();
+
+//     // 2. The PDF is generated
+//     generateResume();
+
+//     // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
+//     setTimeout(removeScale, 5000);
+// })
+
+resumeSmallButton.addEventListener('click', () => {
     // 1. The class .scale-cv is added to the body, where it reduces the size of the elements
-    scaleCv()
+    scaleCv();
 
     // 2. The PDF is generated
-    generateResume()
+    generateResume();
 
     // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
-    setTimeout(removeScale, 5000)
+    setTimeout(removeScale, 5000);
 })

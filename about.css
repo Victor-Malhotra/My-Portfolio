@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+    font-family: 'Black Ops One', cursive;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 400;
+}
+
+h5,
+h6,
+a,
+p {
+    font-weight: 400;
+}
