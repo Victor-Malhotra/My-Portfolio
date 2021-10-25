@@ -151,3 +151,160 @@ body {
         transform: rotate(45deg) translate(20px, 20px);
     }
 }
+
+
+/* === Black Arrow === */
+
+.black_arrow {
+    position: static;
+    margin-top: 0px;
+    margin-left: 66.5%;
+    transform: translate(-50%, -50%);
+}
+
+a .black_arrow span {
+    left: 50%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+.black_arrow span {
+    left: 50%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+.black_arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.black_arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .black_arrow {
+        position: absolute;
+        top: 360%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .black_arrow span {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-bottom: 5px solid black;
+        border-right: 5px solid black;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+    }
+    .black_arrow span:nth-child(2) {
+        animation-delay: -0.2s;
+    }
+    .black_arrow span:nth-child(3) {
+        animation-delay: -0.4s;
+    }
+    @keyframes animate {
+        0% {
+            opacity: 0;
+            transform: rotate(45deg) translate(-20px, -20px);
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+            transform: rotate(45deg) translate(20px, 20px);
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .black_arrow {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .black_arrow span {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-bottom: 5px solid black;
+        border-right: 5px solid black;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+    }
+    .black_arrow span:nth-child(2) {
+        animation-delay: -0.2s;
+    }
+    .black_arrow span:nth-child(3) {
+        animation-delay: -0.4s;
+    }
+    @keyframes animate {
+        0% {
+            opacity: 0;
+            transform: rotate(45deg) translate(-20px, -20px);
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+            transform: rotate(45deg) translate(20px, 20px);
+        }
+    }
+}
+
+
+/* === Collapsible text=== */
+
+.module {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.module .collapseExample.collapse:not(.show) {
+    display: block;
+    height: 4.5rem;
+    overflow: hidden;
+}
+
+.module .collapseExample.collapsing {
+    height: 3rem;
+}
+
+.module a.collapsed::after {
+    content: '+ Read More';
+}
+
+.module a:not(.collapsed)::after {
+    content: '- Read Less';
+}
