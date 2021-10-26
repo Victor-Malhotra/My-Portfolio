@@ -1,0 +1,84 @@
+/* Monotone Font Set up */
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.carousel-inner {
+    font-family: "Ubuntu Mono", monospace;
+    display: inline-block;
+}
+
+.carousel-inner h1 {
+    display: inline-block;
+    font-weight: 700;
+    overflow: hidden;
+    font-size: 8vh;
+    letter-spacing: 2px;
+    animation: typing 10s steps(15, end), blink .65s step-end infinite;
+    white-space: nowrap;
+    font-weight: 700;
+    border-right: 4px solid yellowgreen;
+    box-sizing: border-box;
+}
+
+.carousel-inner p {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+
+/* =========================================================================================================== */
+
+
+/* Type Writer Effect */
+
+@keyframes typing {
+    from {
+        width: 0%
+    }
+    50% {
+        width: 50%
+    }
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+    from,
+    to {
+        border-color: transparent
+    }
+    30% {
+        border-color: yellowgreen;
+    }
+}
+
+@media screen and (max-device-width: 961px) {
+    .carousel-inner h1 {
+        display: inline-block;
+        font-weight: 700;
+        overflow: hidden;
+        font-size: 30px;
+        letter-spacing: 2px;
+        animation: typing 4s steps(15, end), blink .65s step-end infinite;
+        white-space: nowrap;
+        font-weight: 700;
+        border-right: 4px solid yellowgreen;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-inner h1 {
+        display: inline-block;
+        font-weight: 700;
+        overflow: hidden;
+        font-size: 43px;
+        letter-spacing: 2px;
+        animation: typing 4s steps(15, end), blink .65s step-end infinite;
+        white-space: nowrap;
+        font-weight: 700;
+        border-right: 4px solid yellowgreen;
+        box-sizing: border-box;
+    }
+}
