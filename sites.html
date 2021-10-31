@@ -4,15 +4,15 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link rel="icon" href="favicon.ico" />
+    <meta name="description" content="What has Victor Made? Victors Sites" />
+    <meta name="author" content="Victor Malhotra" />
+    <link rel="icon" href="Victor_WMLogo.ico" />
 
-    <title>Album example for Bootstrap</title>
+    <title>Victor's Sites</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-
+    <script src="https://kit.fontawesome.com/d45f79db5e.js" crossorigin="anonymous"></script>
     <!-- Custom styles for this template -->
     <link href="CSS/album.css" rel="stylesheet" />
     <style>
@@ -20,152 +20,80 @@
         body {
             font-family: "Black Ops One", cursive;
         }
+        
+        .nav_active {
+            font-family: 'Black Ops One', cursive;
+            background-color: rgba(84, 84, 84, 0.5);
+            border-bottom: 2px solid white;
+        }
     </style>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a href="#" class="navbar-brand d-flex align-items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
-                <path
-                  d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
-                ></path>
-                <circle cx="12" cy="13" r="4"></circle>
-              </svg>
-                    <strong>Sites</strong>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li>
-                            <a class="nav-link" href="index.html">Home</a
-              >
-            </li>
-            <li>
-              <a class="nav-link" href="gallery.html">Gallery</a>
-                        </li>
-                        <li class="nav-item" class="nav-item active">
-                            <a class="nav-link" href="sites.html">Sites</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="about.html">About Me</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="contact.html">Contact Me<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="resume.html">Resume</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="desktop.html">Interactive Command Shell</a
-                  >
-                </li>
-                    </ul>
-                    <form class="form-inline mt-2 mt-md-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-                    </form>
-                </div>
-            </nav>
-    </header>
-    <!-- <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a href="#" class="navbar-brand d-flex align-items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
-            <path
-              d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
-            ></path>
-            <circle cx="12" cy="13" r="4"></circle>
-          </svg>
-                <strong>Sites</strong>
-            </a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href=""><i class="fas fa-window-maximize"></i> Sites</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-                            <div class="collapse navbar-collapse" id="navbarCollapse">
-                                <ul class="navbar-nav mr-auto">
-                                    <li>
-                                        <a class="nav-link" href="index.html">Home </a>
-                                    </li>
-                                    <li>
-                                        <a class="nav-link" href="index.html">Gallery</a>
-                                    </li>
-                                    <li class="nav-item" class="nav-item active">
-                                        <a class="nav-link" href="sites.html">Sites<span class="sr-only">(current)</span></a
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li>
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item nav_active">
+                        <a class="nav-link" style="color: white;" " href="sites.html ">Sites</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="about.html ">About Me</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="contact.html ">Contact Me</a
               >
             </li>
-            <li>
-              <a class="nav-link" href="index.html">About Me</a>
-                                    </li>
-                                    <li>
-                                        <a class="nav-link" href="contact.html">Contact </a>
-                                    </li>
-                                    <li>
-                                        <a class="nav-link" href="index.html">My Expierience</a>
-                                    </li>
-                                </ul>
-                                <form class="form-inline mt-2 mt-md-0">
-                                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
-                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
+            <li class="nav-item ">
+                <a class="nav-link " href="resume.html ">Resume</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="desktop.html ">Linux Terminal</a>
+                    </li>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0 ">
+                    <input class="form-control mr-sm-2 " type="text " placeholder="Search " aria-label="Search " />
+                    <button class="btn btn-outline-success my-2 my-sm-0 " type="submit ">
+                <i class="fas fa-search "></i>
             </button>
-                                </form>
-                            </div>
-            </nav>
-    </header>
-    <header> -->
-        <div class="collapse bg-dark" id="navbarHeader">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-md-7 py-4">
-                        <h4 class="text-white">About</h4>
-                        <p class="text-muted">
-                            Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.
-                        </p>
-                    </div>
-                    <div class="col-sm-4 offset-md-1 py-4">
-                        <h4 class="text-white">Contact</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                            <li><a href="#" class="text-white">Like on Facebook</a></li>
-                            <li><a href="#" class="text-white">Email me</a></li>
-                        </ul>
-                    </div>
-                </div>
+                </form>
             </div>
-        </div>
-        <div class="navbar navbar-dark bg-dark box-shadow">
-            <div class="container d-flex justify-content-between">
-                <a href="#" class="navbar-brand d-flex align-items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+        </nav>
+    </header>
+        <div class="navbar navbar-dark bg-dark box-shadow ">
+            <div class="container d-flex justify-content-between ">
+                <a href="# " class="navbar-brand d-flex align-items-center ">
+                    <svg xmlns="http://www.w3.org/2000/svg " width="20 " height="20 " viewBox="0 0 24 24 " fill="none " stroke="currentColor " stroke-width="2 " stroke-linecap="round " stroke-linejoin="round " class="mr-2 ">
               <path
-                d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+                d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z "
               ></path>
-              <circle cx="12" cy="13" r="4"></circle>
+              <circle cx="12 " cy="13 " r="4 "></circle>
             </svg>
                     <strong>Album</strong>
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarHeader " aria-controls="navbarHeader " aria-expanded="false " aria-label="Toggle navigation ">
+            <span class="navbar-toggler-icon "></span>
           </button>
             </div>
         </div>
     </header>
-    <section class="breadcrumbs-sections">
-        <div class="container p-1 p-sm-3">
-            <div class="row">
-                <div class="col-12">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active">
+    <section class="breadcrumbs-sections ">
+        <div class="container p-1 p-sm-3 ">
+            <div class="row ">
+                <div class="col-12 ">
+                    <ol class="breadcrumb ">
+                        <li class="breadcrumb-item "><a href="index.html ">Home</a></li>
+                        <li class="breadcrumb-item active ">
                             Sites
                         </li>
                     </ol>
@@ -174,206 +102,81 @@
         </div>
     </section>
 
-    <main role="main">
-        <section class="jumbotron text-center">
-            <div class="container">
-                <h1 class="jumbotron-heading">My Sites</h1>
-                <p class="lead text-muted">
-                    Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.
+    <main role="main ">
+        <section class="jumbotron text-center ">
+            <div class="container ">
+                <h1 class="jumbotron-heading ">My Sites</h1>
+                <p class="lead text-muted ">
+                    These are the sites I have made and put to Git hub. Enjoy!
                 </p>
             </div>
         </section>
 
-        <div class="album py-5 bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap" />
-                            <div class="card-body">
-                                <p class="card-text">
-                                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+        <div class="album py-5 bg-light ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-4 ">
+                        <div class="card mb-4 box-shadow ">
+                            <img class="card-img-top " width="100px " height="225px " src="img/Hummus.png " alt="Card image cap " />
+                            <div class="card-body ">
+                                <p class="card-text ">
+                                    <h2>Hummus Site</h2>
+                                   A Starter project that was given in West-MEC just using CSS and HTML
                                 </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <div class="btn-group ">
+                                        <a type="button " href="https://victormal001.github.io/Hummus/ " target="_blank " class="btn btn-sm btn-outline-secondary ">
                         View
-                      </button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
+                      </a>
+                                        <a type="button " href="https://github.com/VictorMal001/Hummus " target="_blank "  class="btn btn-sm btn-outline-secondary ">
+                                            <i class="fab fa-github fa-2x text-black-50 "></i>
+                      </a>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
+                                    <small class="text-muted ">9 mins</small>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap" />
-                            <div class="card-body">
-                                <p class="card-text">
-                                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                    <div class="col-md-4 ">
+                        <div class="card mb-4 box-shadow ">
+                            <img class="card-img-top " width="100px " height="225px " src="img/SciFloor.png " alt="Card image cap " />
+                            <div class="card-body ">
+                                <p class="card-text ">
+                                    <h2>SciFloors</h2>
+                                    A simple HTML and CSS Group assignment for West-MEC Coding.
                                 </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <div class="btn-group ">
+                                        <a type="button " href="https://victormal001.github.io/sci-floors/ " target="_blank " class="btn btn-sm btn-outline-secondary ">
                         View
-                      </button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
+                      </a>
+                                        <a type="button " href="https://github.com/VictorMal001/sci-floors " target="_blank "  class="btn btn-sm btn-outline-secondary ">
+                                            <i class="fab fa-github fa-2x text-black-50 "></i>
+                      </a>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
+                                    <small class="text-muted ">9 mins</small>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap" />
-                            <div class="card-body">
-                                <p class="card-text">
-                                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                    <div class="col-md-4 ">
+                        <div class="card mb-4 box-shadow ">
+                            <img class="card-img-top " width="100px " height="225px "  src="img/Grid.png " alt="Card image cap " />
+                            <div class="card-body ">
+                                <p class="card-text ">
+                                    <h2>CSS Grid</h2>
+                                    Sample CSS Grid alignment example for a gallery page.
                                 </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <div class="btn-group ">
+                                        <a type="button " href="https://victormal001.github.io/Picture-Grid-Project/ " target="_blank " class="btn btn-sm btn-outline-secondary ">
                         View
-                      </button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
+                      </a>
+                                        <a type="button " href="https://github.com/VictorMal001/Picture-Grid-Project " target="_blank "  class="btn btn-sm btn-outline-secondary ">
+                                            <i class="fab fa-github fa-2x text-black-50 "></i>
+                      </a>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap" />
-                            <div class="card-body">
-                                <p class="card-text">
-                                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
-                        View
-                      </button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap" />
-                            <div class="card-body">
-                                <p class="card-text">
-                                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
-                        View
-                      </button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap" />
-                            <div class="card-body">
-                                <p class="card-text">
-                                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
-                        View
-                      </button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap" />
-                            <div class="card-body">
-                                <p class="card-text">
-                                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
-                        View
-                      </button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap" />
-                            <div class="card-body">
-                                <p class="card-text">
-                                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
-                        View
-                      </button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap" />
-                            <div class="card-body">
-                                <p class="card-text">
-                                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
-                        View
-                      </button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">
-                        Edit
-                      </button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
+                                    <small class="text-muted ">9 mins</small>
                                 </div>
                             </div>
                         </div>
@@ -383,17 +186,17 @@
         </div>
     </main>
 
-    <footer class="text-muted">
-        <div class="container">
-            <p class="float-right">
-                <a href="#">Back to top</a>
+    <footer class="text-muted ">
+        <div class="container ">
+            <p class="float-right ">
+                <a href="# ">Back to top</a>
             </p>
             <p>
                 Album example is &copy; Bootstrap, but please download and customize it for yourself!
             </p>
             <p>
-                New to Bootstrap? <a href="../../">Visit the homepage</a> or read our
-                <a href="../../getting-started/">getting started guide</a>.
+                New to Bootstrap? <a href="../../ ">Visit the homepage</a> or read our
+                <a href="../../getting-started/ ">getting started guide</a>.
             </p>
         </div>
     </footer>
@@ -401,16 +204,16 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
     <script>
         window.jQuery ||
             document.write(
-                '<script src="bootstrap-4.0.0/assets/js/vendor/jquery-slim.min.js"><\/script>'
+                '<script src="bootstrap-4.0.0/assets/js/vendor/jquery-slim.min.js "><\/script>'
             );
     </script>
-    <script src="bootstrap-4.0.0/assets/js/vendor/popper.min.js"></script>
-    <script src="bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
-    <script src="bootstrap-4.0.0/assets/js/vendor/holder.min.js"></script>
+    <script src="bootstrap-4.0.0/assets/js/vendor/popper.min.js "></script>
+    <script src="bootstrap-4.0.0/dist/js/bootstrap.min.js "></script>
+    <script src="bootstrap-4.0.0/assets/js/vendor/holder.min.js "></script>
 </body>
 
 </html>

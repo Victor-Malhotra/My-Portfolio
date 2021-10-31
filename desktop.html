@@ -4,19 +4,26 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link rel="icon" href="favicon.ico" />
+    <meta name="description" content="Linux Terminal Example" />
+    <meta name="author" content="Victor Malhotra" />
+    <link rel="icon" href="Victor_WMLogo.ico" />
 
-    <title>My Portfolio</title>
+    <title>Linux Terminal</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/d45f79db5e.js" crossorigin="anonymous"></script>
     <!-- Custom styles for this template -->
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
         body {
             font-family: "Black Ops One", cursive;
+        }
+        
+        .nav_active {
+            font-family: "Black Ops One", cursive;
+            background-color: rgba(84, 84, 84, 0.5);
+            border-bottom: 2px solid white;
         }
     </style>
 </head>
@@ -24,7 +31,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="#">Carousel</a>
+            <a class="navbar-brand" href="#"><i class="fas fa-terminal"></i> Linux Terminal</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,21 +43,21 @@
                     <li>
                         <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
-                    <li class="nav-item" class="nav-item active">
+                    <li>
                         <a class="nav-link" href="sites.html">Sites</a>
                     </li>
                     <li>
                         <a class="nav-link" href="about.html">About Me</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="contact.html">Contact Me<span class="sr-only">(current)</span></a
+                        <a class="nav-link" href="contact.html">Contact Me</a
               >
             </li>
             <li>
               <a class="nav-link" href="resume.html">Resume</a>
                     </li>
-                    <li>
-                        <a class="nav-link" href="desktop.html">Interactive Command Shell</a
+                    <li class="nav_active">
+                        <a class="nav-link" style="color: white;" href="desktop.html">Linux Terminal</a
               >
             </li>
           </ul>
@@ -62,15 +69,15 @@
               aria-label="Search"
             />
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
+              <i class="fas fa-search"></i>
             </button>
           </form>
         </div>
       </nav>
     </header>
     <br />
-    <br />
-    <br />
+    <br>
+    <p>
     <div class="embed-responsive embed-responsive-1by1" height="100%">
       <iframe
         src="linuxTerminal/index.html"
@@ -78,6 +85,7 @@
         allowfullscreen
       ></iframe>
     </div>
+  </p>
 
     <!-- FOOTER -->
     <footer class="container">
