@@ -16,6 +16,11 @@ body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
+.active {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: rgba(68, 68, 68, 0.808);
+}
+
 
 /* Carousel base class */
 
