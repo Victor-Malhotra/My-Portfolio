@@ -538,6 +538,9 @@ img {
     margin-bottom: var(--mb-1);
 }
 
+.certificate .a{
+    color: var(--text-color-light);
+}
 
 /*========== REFERENCES ==========*/
 
